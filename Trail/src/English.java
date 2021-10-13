@@ -8,7 +8,7 @@ public final class English extends Letters implements Hash {
         return """
                 <html>
                     <body>
-                        <p> Test ! </p>
+                        <p> Test !! </p>
                     </body>
                 </html>
                 """;
