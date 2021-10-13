@@ -1,2 +1,9 @@
-# java17
-Playing with some new functionalities on java 17
+## Going over some new features of
+
+# Java 17
+
+Sealed class, Sealed interface, Switch
+
+# Java 15
+
+Text blocks
