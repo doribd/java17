@@ -20,11 +20,15 @@ public class Main {
         // var was added in Java 10, can hold any data type, type inference
         var zero = 0;
         if (args != null && args.length > zero) {
-            switch (args[zero]) {
-                case null -> printer("Null", "Nothing");
-                case "1" -> printer("1");
-                case "2" -> System.out.println("2");
-                default -> System.out.println("default");
+            var first = args[zero];
+            if (first == null) {
+                printer("Null", "Nothing");
+            } else {
+                switch (first) {
+                    case "1" -> printer("1");
+                    case "2" -> System.out.println("2");
+                    default -> System.out.println("default");
+                }
             }
         }
     }
